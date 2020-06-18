@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Strata by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "author": "Hrach",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "node-mailjet": "^3.3.1",
+    "nodemailer": "^6.4.2"
+  },
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
