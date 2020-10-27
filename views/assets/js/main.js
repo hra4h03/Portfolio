@@ -106,8 +106,3 @@
     });
   });
 })(jQuery);
-
-// function submit(e) {
-// 	e.preventDefault();
-// 	const name =
-// }
