@@ -34,7 +34,11 @@ function validate(req, res, next) {
 }
 
 app.get("/", (req, res) => {
-  res.render("home");
+  return res.render("home");
+});
+
+app.get("*", (req, res) => {
+  return res.redirect("/");
 });
 
 app.post("/send", validate, async (req, res) => {
